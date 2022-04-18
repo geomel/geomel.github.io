@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: George
 middle_name: 
 last_name: Melas
-email: melas@uom.edu.gr
+email: geomel@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to my website.
 footer_text: >
@@ -85,7 +85,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # -----------------------------------------------------------------------------
 
 blog_name: Geomel  # your blog must have a name for it to show up in the nav bar
-blog_description: Web 3 Facts from a researching scope
+blog_description: Web 3 facts from a researching scope
 permalink: /blog/:year/:title/
 
 # Pagination

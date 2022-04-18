@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: PhD Candicate
+subtitle: PhD Candidate 
 
 profile:
   align: right
@@ -17,8 +17,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my website. I am currently a PhD candidate at the <a href="www.uom.gr">University of Macedonia</a> working at the <a href="https://se.uom.gr">Software Engineering Labgroup</a>. My research interests are on the area of Software Engineering and more specific in software design, quality, evolution analysis and maintenability. I am currently working on Web 3.0 full stack technologies and like building Dapps with Blockchains, Smart Contracts and Web frameworks. I hold a BSc on Applied Informatics (2008), a MSc on Computer Systems (2010) and i am working as a Software Engineer ever since. 
+Hi, and welcome to my website. I am currently a PhD candidate at the <a href="www.uom.gr">University of Macedonia</a> working at the <a href="https://se.uom.gr">Software Engineering Lab group</a>. My research interests are on the area of Software Engineering and more specific in software design, quality, evolution analysis and maintenability. 
 
-I have experience in working as a researcher in EU-funded projects as part of my work in the software engineering lab group.
+I hold a BSc on Applied Informatics (2008), a MSc on Computer Systems (2010) and i am working as a software engineer ever since. I also have experience in working as a researcher in EU-funded projects as part of my work in the software engineering lab group.
 
-I activelly develop in Java, Javascript (React, Typescript), Solidity, PHP, Python and have experience in building scientific and commercial applications. 
+In my other half working-life i am a managing partner at Idrogios Education, the leading Educational Robotics and Informatics lifelong educational and certification center in Greece, where i serve as head since 2009.
+
+I am currently working on Web3 full stack technologies and enjoying building Dapps with Smart Contracts and Web frameworks. I actively develop in Java, Javascript (Node, React), MERN stack, Solidity, PHP, Python and i am proficient in using various DevOps tools. 
+
+I have many years experience working with software repositories mining, AST parsers and RESTful applications while building scientific and various commercial applications. 
