@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
 subtitle: PhD Candicate
 
@@ -13,12 +13,12 @@ profile:
     <p>Thessaloniki, Greece</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
 Welcome to my website. I am currently a PhD candidate at the <a href="www.uom.gr">University of Macedonia</a> working at the <a href="https://se.uom.gr">Software Engineering Labgroup</a>. My research interests are on the area of Software Engineering and more specific in software design, quality, evolution analysis and maintenability. I am currently working on Web 3.0 full stack technologies and like building Dapps with Blockchains, Smart Contracts and Web frameworks. I hold a BSc on Applied Informatics (2008), a MSc on Computer Systems (2010) and i am working as a Software Engineer ever since. 
 
-I have experience in working as a researcher in EU-funded projects as part of my work in the softwre engineering lab group.
+I have experience in working as a researcher in EU-funded projects as part of my work in the software engineering lab group.
 
 I activelly develop in Java, Javascript (React, Typescript), Solidity, PHP, Python and have experience in building scientific and commercial applications. 

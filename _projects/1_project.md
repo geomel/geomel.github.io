@@ -1,15 +1,13 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: SEAgle
+description: Effortless Software Evolution Analysis
 img: assets/img/12.jpg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The analysis of software evolution by means of mining public repositories has been established as one of the dominant approaches for empirical studies in software engineering. However, even the investigation of the simplest research question demands a mazy process involving installation and configuration of tools, climbing their learning curve and tedious collection of desired information. Acknowledging the need for effortless querying of remote repositories we introduce a Web-based one-click approach’ to perform software evolution analysis of Git projects.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
