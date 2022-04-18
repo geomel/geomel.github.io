@@ -2,23 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Candicate
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Software Engineering Group</p>
+    <p>University of Macedonia</p>
+    <p>Thessaloniki, Greece</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my website. I am currently a PhD candidate at the <a href="www.uom.gr">University of Macedonia</a> working at the <a href="https://se.uom.gr">Software Engineering Labgroup</a>. My research interests are on the area of Software Engineering and more specific in software design, quality, evolution analysis and maintenability. I am currently working on Web 3.0 full stack technologies and like building Dapps with Blockchains, Smart Contracts and Web frameworks. I hold a BSc on Applied Informatics (2008), a MSc on Computer Systems (2010) and i am working as a Software Engineer ever since. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have experience in working as a researcher in EU-funded projects as part of my work in the softwre engineering lab group.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I activelly develop in Java, Javascript (React, Typescript), Solidity, PHP, Python and have experience in building scientific and commercial applications. 
