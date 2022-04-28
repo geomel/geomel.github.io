@@ -21,8 +21,6 @@ Hi, and welcome to my website. I am currently a PhD candidate at the <a href="ww
 
 I hold a BSc on Applied Informatics (2008), a MSc on Computer Systems (2010) and i am working as a software engineer ever since. I also have experience in working as a researcher in EU-funded projects as part of my work in the software engineering lab group.
 
-In my other half working-life i am a managing partner at Idrogios Education, the leading Educational Robotics and Informatics lifelong educational and certification center in Greece, where i serve as head since 2009.
+In my other half working-life i am a managing partner at Idrogios Education, the leading Educational Robotics and Informatics lifelong educational and certification center in Greece, where i am a founding member and head since 2009.
 
-I am currently working on Web3 full stack technologies and enjoying building Dapps with Smart Contracts and Web frameworks. I actively develop in Java, Javascript (Node, React), MERN stack, Solidity, PHP, Python and i am proficient in using various DevOps tools. 
-
-I have many years experience working with software repositories mining, AST parsers and RESTful applications while building scientific and various commercial applications. 
+I have nearly 20 years experience working with various programming languages, tools and frameworks. I am currently working on Web3 full stack technologies and enjoying building Dapps with Smart Contracts and Web frameworks. I actively develop in Java, Javascript (Node, React), MERN stack, Solidity, PHP, Python and i am proficient in using various DevOps tools. 
