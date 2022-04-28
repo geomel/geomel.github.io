@@ -23,4 +23,4 @@ I hold a BSc on Applied Informatics (2008), a MSc on Computer Systems (2010) and
 
 In my other half working-life i am a managing partner at Idrogios Education, the leading Educational Robotics and Informatics lifelong educational and certification center in Greece, where i am a founding member and head since 2009.
 
-I have nearly 20 years experience working with various programming languages, tools and frameworks. I am currently working on Web3 full stack technologies and enjoying building Dapps with Smart Contracts and Web frameworks. I actively develop in Java, Javascript (Node, React), MERN stack, Solidity, PHP, Python and i am proficient in using various DevOps tools. 
+I have nearly 20 years experience working with various programming languages, technologies and frameworks. I am currently working on Web3 full stack technologies and enjoying building Dapps with Smart Contracts and Web frameworks. I actively develop in Java, Javascript (Node, React), MERN stack, Solidity, PHP, Python and i am proficient in using various DevOps tools. 
