@@ -9,9 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>George  Melas | project 2</title>
+    <title>George  Melas | SCQAP</title>
     <meta name="author" content="George  Melas" />
-    <meta name="description" content="a project with a background image" />
+    <meta name="description" content="Smart Contracts Quality Analysis Platform" />
     <meta name="keywords" content="geomel, melas, academic-website, portfolio-website" />
 
 
@@ -106,22 +106,33 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">project 2</h1>
-            <p class="post-description">a project with a background image</p>
+            <h1 class="post-title">SCQAP</h1>
+            <p class="post-description">Smart Contracts Quality Analysis Platform</p>
           </header>
 
           <article>
-            <p>Every project has a beautiful feature showcase page.
-Itâ€™s easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.</p>
+            <p>SCQAP was created to facilitate the analysis of Smart Contracts from a Software Quality and Gas efficiency perspective. 
+              We have implemented a public repository of Solidity SC metrics accessible via a public REST API along with a web based client, 
+              where researchers can easily examine a massive number of smart contracts metrics with various charts and correlation diagrams..</p>
 
-<p>To give your project a background in the portfolio page, just add the img tag to the front matter like so:</p>
+<p>The development of the platform was driven by the following key issues:</p>
+<ul>
+<li>The platform should be easy to use. To this end we opted for a Web based platform enabling users to analyze random SC datasets by a single click.</li>
+<li>Large variety of charts to easily examine software quality and complexity metrics against Gas values for randomly chosen datasets of SCs</li>
+<li>Fined-grained analysis of Smart Contracts code via links to Etherscan.io</li>
+<li>Any software system has several facets, so do SCs. Therefore, we offer multiple views concerning sizet-related metrics, complexity metrics and object-oriented metrics.</li>
+<li>All software metrics can be easily copied or extracted from UI options</li>
+<li>Empirical studies very often focus on the investigation of relations among variables. To satisfy this need we offer on demand correlation analysis between any two monitored variables. (for this reason the x-axis is common on all diagrams and represents software versions)</li>
+</ul>
 
+<p>For the complete API documentation visit: http://195.251.210.147:8065/Documentation/ <br>SCQAP REST service example:</p> 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout: page
-title: project
-description: a project with a background image
-img: /assets/img/12.jpg
+http://195.251.210.147:8065/rest/{service_path}
+Get Smart Contract Metrics
+URI: /loadContracts.php?adr=scAdr
+Parameters: scAdr:Smart Contract Address
+Description: Returns the metrics of the sc with the given address
+If adr=0 returns all SC metrics (complete dataset)
 ---
 </code></pre></div></div>
 
@@ -134,7 +145,7 @@ img: /assets/img/12.jpg
     <source media="(max-width: 800px)" srcset="/assets/img/1-800.webp"></source>
     <source media="(max-width: 1400px)" srcset="/assets/img/1-1400.webp"></source>
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/1.jpg" title="example image">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/1.png" title="size metrics preview">
 
   </picture>
 
@@ -149,7 +160,7 @@ img: /assets/img/12.jpg
     <source media="(max-width: 800px)" srcset="/assets/img/3-800.webp"></source>
     <source media="(max-width: 1400px)" srcset="/assets/img/3-1400.webp"></source>
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/3.jpg" title="example image">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/3.png" title="correlation image">
 
   </picture>
 
@@ -164,7 +175,7 @@ img: /assets/img/12.jpg
     <source media="(max-width: 800px)" srcset="/assets/img/5-800.webp"></source>
     <source media="(max-width: 1400px)" srcset="/assets/img/5-1400.webp"></source>
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/5.jpg" title="example image">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/5.png" title="diagrams over gas">
 
   </picture>
 
@@ -173,7 +184,7 @@ img: /assets/img/12.jpg
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+  Users can plot on demand correlation diagrams between two selected metrics with the help of the R statistical language and obtain  the Spearmanâ€™s correlation coeficient
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -184,7 +195,7 @@ img: /assets/img/12.jpg
     <source media="(max-width: 800px)" srcset="/assets/img/5-800.webp"></source>
     <source media="(max-width: 1400px)" srcset="/assets/img/5-1400.webp"></source>
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/5.jpg" title="example image">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/correlation.png" title="correlation diagrams">
 
   </picture>
 
@@ -193,12 +204,11 @@ img: /assets/img/12.jpg
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Charts - Diagrams
 </div>
 
-<p>You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, <em>bled</em> for your project, and thenâ€¦ you reveal itâ€™s glory in the next row of images.</p>
+<p>The platform  offers a variety  of charts  to examine software quality and complexity metrics against Gas values for randomly chosen datasets of Smart Contracts.
+  For every Smart Contract there is the option for fine-grained analysis via their address that points to the SC code through the Etherscan platfrom.</p>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -209,7 +219,7 @@ You describe how you toiled, sweated, <em>bled</em> for your project, and thenâ€
     <source media="(max-width: 800px)" srcset="/assets/img/6-800.webp"></source>
     <source media="(max-width: 1400px)" srcset="/assets/img/6-1400.webp"></source>
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/6.jpg" title="example image">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/6.png" title="oo metrics">
 
   </picture>
 
@@ -224,7 +234,7 @@ You describe how you toiled, sweated, <em>bled</em> for your project, and thenâ€
     <source media="(max-width: 800px)" srcset="/assets/img/11-800.webp"></source>
     <source media="(max-width: 1400px)" srcset="/assets/img/11-1400.webp"></source>
     <!-- Fallback to the original file -->
-    <img class="img-fluid rounded z-depth-1" src="/assets/img/11.jpg" title="example image">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/11.png" title="oo metrics">
 
   </picture>
 
@@ -232,24 +242,9 @@ You describe how you toiled, sweated, <em>bled</em> for your project, and thenâ€
 
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-<p>The code is simple.
-Just wrap your images with <code class="language-plaintext highlighter-rouge">&lt;div class="col-sm"&gt;</code> and place them inside <code class="language-plaintext highlighter-rouge">&lt;div class="row"&gt;</code> (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank" rel="noopener noreferrer">Bootstrap Grid</a> system).
-To make images responsive, add <code class="language-plaintext highlighter-rouge">img-fluid</code> class to each; for rounded corners and shadows use <code class="language-plaintext highlighter-rouge">rounded</code> and <code class="language-plaintext highlighter-rouge">z-depth-1</code> classes.
-Hereâ€™s the code for the last row of images above:</p>
+<p>All dataset metrics can be easily copied or exported via the user interface options of the platform in multiple formats. Through a REST API, extensively documented on the SCQAP website, researchers can easily collect specific metrics based on multiple filters for further studies.:</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row justify-content-sm-center"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-8 mt-3 mt-md-0"</span><span class="nt">&gt;</span>
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-4 mt-3 mt-md-0"</span><span class="nt">&gt;</span>
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</code></pre></div></div>
 
 
           </article>
